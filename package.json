@@ -1,0 +1,20 @@
+{
+  "name": "@kszongic/cidr-wildcard-cli",
+  "version": "1.0.0",
+  "description": "Convert between CIDR notation, subnet masks, and wildcard masks from the command line. Zero dependencies.",
+  "main": "index.js",
+  "bin": {
+    "cidr-wildcard": "index.js"
+  },
+  "scripts": {
+    "test": "node index.js 192.168.1.0/24"
+  },
+  "keywords": ["cidr", "wildcard", "subnet", "mask", "network", "cli", "netmask"],
+  "author": "kszongic",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kszongic/cidr-wildcard-cli"
+  },
+  "funding": "https://github.com/sponsors/kszongic"
+}
